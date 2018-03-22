@@ -1,0 +1,111 @@
+html {
+  background-color: rgb(45, 104, 128);
+}
+body {
+  margin: 0 auto;
+}
+.text {
+  font-family: 'Bungee', cursive;
+  font-weight: 100;
+  color: white;
+  padding: 0;
+  margin: 0 auto;
+}
+.text-container {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgb(77, 77, 77);
+  padding: 0;
+  border-radius: 0px 0px 10px 10px;
+}
+.main-page {
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+.sideNav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-color: rgb(48, 50, 51);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.sideNav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Bungee', cursive;
+}
+.sideNav a:hover {
+  color: grey;
+}
+.sideNav . closeBtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.hamburger {
+  max-width: 100%;
+  width: 60px;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+input {
+  color: white;
+  font-family: 'Bungee', cursive;
+  background-color: #666666;
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  margin: 20px;
+  transition: 0.3s;
+  outline: none;
+  font-size: 15px;
+}
+form {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+input:hover {
+  background-color: grey;
+  box-shadow: 4px 4px rgb(48, 50, 51);
+}
+.deletebtn {
+  width: auto;
+  height: auto;
+  background-color: rgb(157, 56, 58);
+  border-radius: 5px;
+  display: block;
+  outline: none;
+  font-size: 15px;
+  width: 100%;
+}
+.deletebtn:hover {
+  background-color: rgb(130, 41, 41);
+  box-shadow: 4px 4px  rgb(48, 50, 51);
+}
+.submitBtn {
+  background-color: rgb(130, 130, 41);
+  cursor: pointer;
+}
+.submitBtn:hover {
+  background-color: rgb(89, 89, 28);
+}
