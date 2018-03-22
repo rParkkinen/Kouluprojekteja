@@ -17,7 +17,7 @@
 
     </div>
     <div class="text-container" style="border-radius: 5px 5px 5px 5px">
-      <h1 class="text">Free voting app no scam free moneys back download <a href="#">here</a></h1>
+      <h1 class="text">Free voting app no scam free moneys back download <a href="#">here</a> VIRUS FREE</h1>
     </div>
     <div class="text-container">
       <img src="vince2.png" alt="vince">

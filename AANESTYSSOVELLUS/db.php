@@ -1,7 +1,13 @@
 <?php
-$con = mysqli_connect("localhost","root", "root", "aanestysappi");
+$servername ="localhost";
+$username = "root";
+$password = "";
+$database = "aanestysappi";
 
-  if (mysqli_connect_errno()) {
-    echo "Ei onnistunu" . mysqli_connect_error();
+$con = new mysqli($servername, $username, $password, $database);
+
+  if ($con->connect_error) {
+    die("Yhdistäminen epäonnistui: " . $con->connect_error);
   }
+  echo "Yhdistäminen onnistui";
  ?>
